@@ -11,7 +11,7 @@ h1{
 header{
     position: fixed;
     background: linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
-    
+    z-index: 1;
     width: 100%;
     box-shadow:-4px 22px 29px -9px rgba(30, 30, 60, 0.44);
 }
