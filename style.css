@@ -47,7 +47,12 @@ li{
     padding:15; 
     
 }
-.about,.warper a{
+.about a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.warper a{
     text-decoration: none;
     color: black;
     display: block;
