@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+  font-family: 'PT Sans', 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol{
+  list-style-position: inside;
+}
+
+#sec-2{
+  margin-top: 1.5rem;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+body{
+  width: 1024px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.col{
+  flex-direction: column;
+}
+
+.center{
+  align-items: center;
+}
+
+.first-section *{
+  margin: 0.5rem 0;
+}
+
+.dp_photo{
+  width: 12rem;
+  border-radius: 100%;
+}
+
+.lr-border{
+  border-left: 2px solid gray;
+  border-right:2px solid gray;
+}
+
+.contact_section{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.contact_section > *{
+  padding: 0.5rem 2rem;
+  margin: 0.5rem 0;
+}
+
+.ml{
+  margin-left: 0.5rem;
+}
+
+.ml-4x{
+  margin-left: 2rem;
+}
+
+.mtb{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.sub-heading{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  
+}
+
+.side{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.para{
+  grid-column-start: 4;
+  grid-column-end: none;
+}
